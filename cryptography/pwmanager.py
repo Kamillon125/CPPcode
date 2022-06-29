@@ -1,11 +1,11 @@
 from cryptography.fernet import Fernet
 import os
 def genkey2():
-    key = b'RI7tswlb4lB9gPNDMMfO4nMxKzUFLcL8ZzqDKqKlLaw='
+    key = b'<YOURKEY>'
     return key
 key = genkey2()
 def genkey():
-    key = b'RI7tswlb4lB9gPNDMMfO4nMxKzUFLcL8ZzqDKqKlLaw='
+    key = b'<YOURKEY>'
     f = Fernet(key)
     return f
 f = genkey()
